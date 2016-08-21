@@ -42,8 +42,8 @@ It can also be used to comminicate with the EUCs internal serial interface direc
  - Enable tilt-back at 6km/h
  - Disable tilt-back at 6km/h
  
-### Electric Unicycle Interface Example: Led Rainbow and Breaklight
-[![Video](https://img.youtube.com/vi/9l_gGwaTyRE/0.jpg)](https://www.youtube.com/watch?v=9l_gGwaTyRE)
+### Video: Electric Unicycle Interface Example: Led Rainbow and Breaklight
+[![Video](https://img.youtube.com/vi/9l_gGwaTyRE/0.jpg)](https://www.youtube.com/watch?v=9l_gGwaTyRE)  
 Code used: [examples/DirectLedWheel/DirectLedWheel.ino](examples/DirectLedWheel/DirectLedWheel.ino)
 
 ### Usage 
