@@ -110,6 +110,28 @@ void eucLoop(float voltage, float speed, float tempMileage, float current, float
 }
 ```
 
+### API docs
+``` c++
+Euc(ReceiverSerial, TransmitterSerial); //create new instance of this class
+
+Euc.tick(); // simply has to be called regularly
+Euc.setCallback(callbackFunction); // you have to specify a callback function to which the class can send the data it receives from the unicycle
+//Example callback function:
+void callbackFunction(float voltage, float speed, float tempMileage, float current, float temperature, float mileage, bool dataIsNew) {
+  // Do something with the received data
+}
+Euc.beep(); // make the unicycle beep
+Euc.maddenMode(); // set madden mode
+Euc.comfortMode(); // set confort mode
+Euc.softMode(); // set soft mode
+Euc.calibrateAlignment(); // calibrate alignment
+Euc.disableLevel1Alarm(); // disable level 1 alarm
+Euc.disableLevel2Alarm(); // disable level 2 alarm
+Euc.enableAlarms(); // enable alarms
+Euc.enable6kmhTiltback(); // enable  6km/h tiltback
+Euc.disable6kmhTiltback(); // disable 6km/h tiltback
+```
+
 ### More info
 
 The electric unicycles I tested send their data 5 times persecond with a consistent 200 millisecond delay between them.
