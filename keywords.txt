@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For Electric Unicycle Interface
+####################################### 
+# Class
+#######################################
+
+Euc	KEYWORD1
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+tick	            KEYWORD2
+setCallback	    	KEYWORD2
+beep                KEYWORD2
+maddenMode          KEYWORD2
+comfortMode         KEYWORD2
+softMode            KEYWORD2
+calibrateAlignment  KEYWORD2
+disableLevel1Alarm  KEYWORD2
+disableLevel2Alarm  KEYWORD2
+enableAlarms        KEYWORD2
+enable6kmhTiltback  KEYWORD2
+disable6kmhTiltback KEYWORD2
+
+#######################################
+# Constants
+#######################################
+ 
